@@ -7,7 +7,7 @@ https://app.sushiswap.org
 ### Install Dependencies
 
 ```bash
-yarn
+yarn install
 ```
 
 ### Run
