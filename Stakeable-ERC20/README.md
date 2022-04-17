@@ -15,10 +15,16 @@ RPC_URL=''
 PRIVATE_KEY=''
 ```
 
-# Compiling the Smart Contract
+# Compiling the Smart Contracts
 
 ```shell
 truffle compile
+```
+
+# Testing Smart Contracts
+
+```shell
+truffle test
 ```
 
 # Migrate Smart Contracts to Ropsten Network
