@@ -1,9 +1,3 @@
-# Clone Stakeable-ERC20 Repository
-
-```shell
-git clone 
-```
-
 # Install the Dependencies and Dotenv
 
 ```shell
