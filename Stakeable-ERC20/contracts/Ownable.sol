@@ -14,7 +14,7 @@ contract Ownable {
 
     /**
     * Event OwnershipTransferred is used to log that a ownership change of the token has occured
-     */
+    */
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
     /**
