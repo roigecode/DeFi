@@ -17,4 +17,8 @@ contract Interaction {
     function getCount() external view returns (uint) {
         return ICounter(counterAddr).count();
     }
+
+    function interacter_increment() public payable{
+        return ICounter(counterAddr).increment();
+    }
 }
