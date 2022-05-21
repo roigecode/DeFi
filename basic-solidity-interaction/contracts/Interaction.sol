@@ -43,8 +43,7 @@ contract Interaction {
 
 
 /// @dev    Interfaces declarations:
-/// @notice Although Solidity provides getters for public variables
-///         you need to declare them in the interface!
+/// @notice Although Solidity automatically provides getters for public variables it is mandatory to declare them in the interfaces!
 
 interface ICounter {
     function count() external view returns (uint);
