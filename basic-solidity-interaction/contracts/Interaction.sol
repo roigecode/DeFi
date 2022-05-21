@@ -3,13 +3,13 @@ pragma solidity ^0.8.0;
 // SPDX-License-Identifier: MIT
 /// @author Roige.
 /// @notice This contract aims to have an on-chain API like functionallity.
-/// @dev You can ignore the interfaces declarations. 
+/// @dev    Read the Interfaces section bellow the contract for important notes.
 
 contract Interaction {
     address counterAddress;
     address mockAddress;
 
-    /// @dev Address setters:
+    /// @dev Address setters - Need to be payable as they modify values on-chain:
 
     function setCounterAddress(address _counter) public payable {
        counterAddress = _counter;
@@ -29,7 +29,7 @@ contract Interaction {
         return IMock(mockAddress).setVar(_num);
     }
 
-    /// @dev Variable getters:
+    /// @dev Variable getters - Automatically provided by Solidity:
 
     function interacter_getCount() external view returns (uint) {
         return ICounter(counterAddress).count();
@@ -38,7 +38,6 @@ contract Interaction {
     function interacter_getVar() external view returns (uint) {
         return IMock(mockAddress).variable();
     }
-
 }
 
 
