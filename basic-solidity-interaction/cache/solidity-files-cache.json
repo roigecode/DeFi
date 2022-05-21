@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/roige/basic-solidity-interaction/contracts/Counter.sol": {
-      "lastModificationDate": 1652948107580,
+    "/home/roige/DeFi/basic-solidity-interaction/contracts/Counter.sol": {
+      "lastModificationDate": 1652975794130,
       "contentHash": "ce63ca9a46dac9b032a2be107df95d32",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
@@ -36,9 +36,9 @@
         "Counter"
       ]
     },
-    "/home/roige/basic-solidity-interaction/contracts/Interaction.sol": {
-      "lastModificationDate": 1652948205517,
-      "contentHash": "762646bc2a63f5ce048ad8fb0e196dbb",
+    "/home/roige/DeFi/basic-solidity-interaction/contracts/Interaction.sol": {
+      "lastModificationDate": 1653175191300,
+      "contentHash": "8b19982b38dcb0486ae57f27d49b0953",
       "sourceName": "contracts/Interaction.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -69,7 +69,43 @@
       ],
       "artifacts": [
         "ICounter",
+        "IMock",
         "Interaction"
+      ]
+    },
+    "/home/roige/DeFi/basic-solidity-interaction/contracts/Mock.sol": {
+      "lastModificationDate": 1653174134040,
+      "contentHash": "de3a9641f4181d95b7a55c03c9951f69",
+      "sourceName": "contracts/Mock.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Mock"
       ]
     }
   }
