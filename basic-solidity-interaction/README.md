@@ -1,15 +1,11 @@
-# Basic Sample Hardhat Project
+# On-Chain interaction between Solidity Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic on-chain API-like contract use. It aims to establish a simple way for a developer to interact with multiple contracts at the same time just calling a single end-point. It provides full testing functionallity and extensive comments to provide some insight about how it actually works.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat run scripts/deploy.js
 ```
+I am totally unaware if there is an EIP for similar use cases. Any improvements are welcome!
